@@ -1,0 +1,92 @@
+DAY 1 SLIDES 
+
+if (animal === 'dog'){
+    console.log('woof')
+} else {
+    console.log('meow')
+}
+
+if (hour < 11 {
+    console.log('Good monring!')
+} else if (hour < 17) {
+    console.log('Good afternoon!')
+} else {
+    console.log('Good evening!')
+}
+
+let message = (hour < 11) ? 'Good morning!' : 'Good afternoon!'
+
+let str = 'How are you doing${(firstName) ? ', ' + firstName :  ''}? '
+//How are you doing, Todd? 
+//How are doing? 
+
+switch (fruit) {
+    case 'orange': 
+    console.log('Oranges are $0.59 a pound.')
+    case 'apple': 
+    console.log('Apple are $0.32 a pound.')
+    case 'banana': 
+    console.log('Banana are $0.48 a pound.')
+    break: 
+    console.log('Sorry, we are out of ${fruit}. ')
+
+}
+
+function washTheDishes () {
+    turnOnHotWater()
+    rinseDish()
+    putSoapOnSponge()
+    wipeSoapOnDish()
+    rinseDish()
+    putDishInDryingRack()
+}
+
+function doSomething() {
+    //do some stuff here
+}
+
+turnOnHotWater ()
+washDishes(coffeeMug)
+washDishes(plate)
+washDishes(spoon)
+washDishes(pintGlass)
+turnOnHotWater()
+
+function sayHello (firstName) {
+    console.log('Hello ' + firstName)
+}
+
+function doSomething() {
+    //do some stuff here
+
+    doSomething ()// runs function 
+
+function returnSomething () {
+    return 'Hello'
+}
+
+let message = returnSomething()
+// message = 'Hello'
+let thing = returnSomething
+// thing = new copy of function 
+
+function calcTax(total, taxRate) {
+    const tax = total * taxRate 
+    return tax 
+}
+
+let myTax = calcTax(17.25, 0.07) 
+
+function calcTax(total, taxRate) {
+    const tax = total * taxRate 
+    return tax 
+}
+
+let mySubTotal = 17.25
+let myTaxRate = 0.07
+let myTax = calcTax(mySubTotal, myTaxRate) 
+
+console.log('Boca' + 'Code')// BocaCode
+
+let firstName = 'Todd'
+console.log('Hello, ' + firstName + ',')

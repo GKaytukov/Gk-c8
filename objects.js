@@ -7,6 +7,28 @@ const person = {
     address4: "1 Apple Drive"
 }
 
+
+const myName = {
+name: Gerly
+age 35
+if {
+ confident 
+
+ console.log('I am confident')
+
+}
+
+else if {
+
+    not confident 
+
+ console.log('I am no feeling confident')
+}
+
+}
+
+let i = 0; i < 10; i++
+
 // console.log("person is called: ",person.name)
 // console.log("person is called: ",person["name"])
 console.log("person is called: ",person["name"])
