@@ -21,7 +21,7 @@ console.log(isDrinkingAge);
 //Define our function: 
 function isDrinkingAge(age){
     const drinkingAge = 21; 
-    const can/drink = age
+    const canDrink = age
 }
 
 
